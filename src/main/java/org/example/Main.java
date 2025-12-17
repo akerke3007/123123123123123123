@@ -20,7 +20,17 @@ public class Main {
             System.out.println(athlete1.getFullName()+"is older than"+ athlete2.getFullName());
         } else {
             System.out.println(athlete2.getFullName()+"is older than"+ athlete1.getFullName());
-
+            System.out.println("Club name: " + club.getClubName());
+            System.out.println("City: " + club.getCity());
+            System.out.println("Team Size" + Football.getTeamSize());
+            System.out.println("Team Size" + Basketball.getTeamSize());
+            System.out.println("Athlete 1 age: " + athlete1.getAge());
+            System.out.println("Athlete 2 age: " + athlete2.getAge());
+            System.out.println("Club name: " + club.getClubName());
+            System.out.println("City: " + club.getCity());
+            System.out.println("SETTTTTT " + athlete1.getAge());
+            System.out.println("Athlete 1 age: " + athlete1.getAge());
+            System.out.println("Athlete 2 age: " + athlete2.getAge());
         }
     }
 }
