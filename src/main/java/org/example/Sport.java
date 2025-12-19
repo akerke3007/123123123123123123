@@ -11,13 +11,13 @@ public class Sport {
     public String getName() {
         return name;
     }
-    public void setName() {
+    public void setName(String name) {
         this.name=name;
     }
     public int getTeamSize() {
         return teamSize;
     }
-    public void setTeamSize() {
+    public void setTeamSize(int teamSize) {
         this.teamSize=teamSize;
     }
     public void displayInfo() {
