@@ -21,7 +21,7 @@ public class Sport {
         this.teamSize=teamSize;
     }
     public void displayInfo() {
-        System.out.println("Sport: "+",Team size:"+teamSize);
+        System.out.println("Sport: "+ name +",Team size:"+teamSize);
     }
 
 
